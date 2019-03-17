@@ -6,12 +6,8 @@ install:
   - npm install
 
 
-
-
 script:
   - hexo g
-
-after_script::
   - cd ./public
   - git init
   - git config user.name "lifengsofts"
@@ -19,6 +15,7 @@ after_script::
   - git add .
   - git commit -m "Update docs"
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
+  
 branch:
   only:
   - master
