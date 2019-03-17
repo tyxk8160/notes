@@ -10,8 +10,8 @@ script:
   - hexo g
   - cd ./public
   - git init
-  - git config user.name "lifengsofts"
-  - git config user.email "lifengsofts@gmail.com"
+  - git config user.name "天涯行客"
+  - git config user.email "tyxk8160@gmail.com"
   - git add .
   - git commit -m "Update docs"
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
