@@ -79,6 +79,6 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://https://github.com/tyxk8160/tyxk8160.github.io.git
+  repo: git@github.com:tyxk8160/tyxk8160.github.io.git
   branch: master
 
